@@ -1,28 +1,31 @@
-//1-задание
-let a = "10";
-let b = "20"
+/*НЕДЕЛЯ 3 
+1-задание */
+let numberSouvenirs = 4
+let numberTrinkets = 6
+let souvenirsWeight = numberSouvenirs*72
+let trinketsWeight = numberTrinkets*112
+console.log(`Общий вес = ${souvenirsWeight+trinketsWeight}`)
 
-let num1 = Number(a); 
-let num2 = Number(b);
+//2-задание 
+let usersMoney = 100000
+let countProsent = usersMoney/100*4
+let firstYear =usersMoney+ countProsent
+console.log(`За первый год :${firstYear}`)
+let  countProsent2 = firstYear/100*4
+let secondYear = firstYear+ countProsent2
+console.log(`За второй год :${secondYear}`)
+let  countProsent3 = secondYear/100*4
+let thirdYear = secondYear+ countProsent3
+console.log(`За третий год :${thirdYear}`)
 
-console.log(typeof num1);
-console.log(typeof num2);
-console.log(num1+num2);
-//2-задание
-let  c = 12
-let d = 2
+//3-задание 
+let a = 20
+let b = 4
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b)
+console.log(Math.pow(a,b))
 
-let num3 = String(c);
-let num4 = String(d);
-console.log(num3+num4)
-//3-задание
-let num = 10;
-for (let i=0;i<=10;i++){
-    console.log(i)
-}
-//4-задание
-const second = 60
-const minute = 60
-const hour = 24
-let days = 365
-console.log(`в году ${second*minute*hour*days} секунд`)
+
